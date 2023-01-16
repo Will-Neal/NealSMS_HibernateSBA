@@ -17,7 +17,7 @@
 ## Usage
   Once the database has been linked, tables created, and data seeded, simply run the application from the App.java file contained in src/main/java within the jpa.SMS package. This will start the application and you will be good to go. 
 
-  ![SMS Screenshot](https://github.com/Will-Neal/social-network-api/blob/main/assets/insomnia-screenshot.jpg?raw=true)
+  ![SMS Screenshot](https://github.com/Will-Neal/NealSMS_HibernateSBA/blob/main/images/SMS_SS.png?raw=true)
   
   ## License
 
