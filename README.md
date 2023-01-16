@@ -12,7 +12,7 @@
 
   ## Installation
   
-  Download the entire project. Update the Hibernate configuration file with the desired url and database name as well as the valid username and login for your database. Running the program once, even just to immediately log out will create the tables or update the tables if necessary. Premade student and course data is available in the SQL Scripts folder and can be run straight in MySQL workbench or Users and Courses must be manually seeded with the desired information. 
+  Download the entire project. If you get it as a zip file, you must unzip it and import the NealSMS folder contained within the main directory. Once you have the project, update the Hibernate configuration file with the desired url and database name as well as the valid username and login for your database. Running the program once, even just to immediately log out will create the tables or update the tables if necessary. Premade student and course data is available in the SQL Scripts folder and can be run straight in MySQL workbench or Users and Courses must be manually seeded with the desired information. 
 
 ## Usage
   Once the database has been linked, tables created, and data seeded, simply run the application from the App.java file contained in src/main/java within the jpa.SMS package. This will start the application and you will be good to go. 
