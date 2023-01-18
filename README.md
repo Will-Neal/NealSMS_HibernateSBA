@@ -28,7 +28,7 @@ Once you have the project, update the Hibernate configuration file with the desi
 
 Run the program once to create the tables or update the tables if necessary. You should run the program by going to src/main/java then opening the jpa.SMS package, navigating to App.java, right clicking and selecting run as Java Application. 
 
-Premade student and course data is available in the SQL Scripts directory within the NealSMS directory and can be run straight in MySQL workbench or Users and Courses must be manually seeded with the desired information. 
+Student and course data is available in the SQL Scripts directory within the NealSMS directory. Once you have run the program once and created the tables, run these scripts to insert the data into the tables in MySQL workbench. 
 
 ## Usage
 
