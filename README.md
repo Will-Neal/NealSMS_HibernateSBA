@@ -18,11 +18,12 @@ If you get it as a zip file, you must unzip it and import the NealSMS contained 
 
 If you clone it from github you must import the NealSMS contained within the main directory (NealSMS_HiberanteSBA) into eclipse or your IDE of choice.
 
-Once you have the project, update the Hibernate configuration file with the desired url and database name as well as the valid username and login for your database. Those Lines look like:
+Once you have the project, update the Hibernate configuration file with the desired url and database name as well as the valid username and login for your database. You only need to change the database name if you want it to have a different name on your local host or server. You MUST change the username and password fields to your MySQL login. Those Lines look like:
 
-You only need to change the database name if you want it to have a different name on your local host or server. You MUST change the username and password fields to your MySQL login. 
 <property name="connection.url">jdbc:mysql://localhost:3306/smsdb?createDatabaseIfNotExist=true</property>
+
 <property name="connection.username">YOUR MYSQL USERNAME HERE</property>
+
 <property name="connection.password">YOUR MYSQL PASSWORD HERE</property>
 
 Run the program once to create the tables or update the tables if necessary. You should run the program by going to src/main/java then opening the jpa.SMS package, navigating to App.java, right clicking and selecting run as Java Application. 
