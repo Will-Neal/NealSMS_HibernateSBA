@@ -20,7 +20,7 @@ If you clone it from github you must import the NealSMS contained within the mai
 
 Once you have the project, update the Hibernate configuration file with the desired url and database name as well as the valid username and login for your database. You only need to change the database name if you want it to have a different name on your local host or server. You MUST change the username and password fields to your MySQL login. Those Lines look like:
 
-`<property name="connection.url">jdbc:mysql://localhost:3306/smsdb?createDatabaseIfNotExist=true</property>
+\<property name="connection.url">jdbc:mysql://localhost:3306/smsdb?createDatabaseIfNotExist=true</property\>
 
 <property name="connection.username">YOUR MYSQL USERNAME HERE</property>
 
