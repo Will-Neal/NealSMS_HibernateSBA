@@ -22,9 +22,9 @@ Once you have the project, update the Hibernate configuration file with the desi
 
 \<property name="connection.url">jdbc:mysql://localhost:3306/smsdb?createDatabaseIfNotExist=true</property\>
 
-<property name="connection.username">YOUR MYSQL USERNAME HERE</property>
+\<property name="connection.username">YOUR MYSQL USERNAME HERE</property\>
 
-<property name="connection.password">YOUR MYSQL PASSWORD HERE</property>`
+\<property name="connection.password">YOUR MYSQL PASSWORD HERE</property\>`
 
 Run the program once to create the tables or update the tables if necessary. You should run the program by going to src/main/java then opening the jpa.SMS package, navigating to App.java, right clicking and selecting run as Java Application. 
 
